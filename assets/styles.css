@@ -98,10 +98,10 @@ header {
   padding-bottom: 56px;
 }
 
-.hero-banner h1,
-.hero-banner p,
-.hero-banner .hero-kicker,
-.hero-banner .hero-description {
+.hero-banner .content-wrap h1,
+.hero-banner .content-wrap p,
+.hero-banner .content-wrap .hero-kicker,
+.hero-banner .content-wrap .hero-description {
   color: #ffffff;
 }
 
