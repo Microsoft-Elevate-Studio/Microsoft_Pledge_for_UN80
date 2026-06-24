@@ -69,36 +69,6 @@ header {
   color: #605e5c;
 }
 
-.hero-banner {
-  background: linear-gradient(90deg, #0068BD 0%, #004286 100%);
-  color: #ffffff;
-}
-
-.hero-banner .content-wrap {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-
-.hero-banner h1 {
-  color: #ffffff;
-  max-width: 900px;
-  margin-bottom: 12px;
-}
-
-.hero-banner .hero-kicker {
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  color: #ffffff;
-  margin-bottom: 18px;
-}
-
-.hero-banner .hero-description {
-  max-width: 1040px;
-  color: #ffffff;
-  line-height: 1.55;
-}
-
 @media (max-width: 768px) {
   .header-inner {
     padding: 0 16px;
@@ -116,4 +86,38 @@ header {
   .content-wrap h1 {
     font-size: 24px;
   }
+}
+
+.hero-banner {
+  background: linear-gradient(90deg, #0068BD 0%, #004286 100%);
+  color: #ffffff;
+}
+
+.hero-banner .content-wrap {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.hero-banner h1,
+.hero-banner p,
+.hero-banner .hero-kicker,
+.hero-banner .hero-description {
+  color: #ffffff;
+}
+
+.hero-banner h1 {
+  max-width: 900px;
+  margin-bottom: 12px;
+}
+
+.hero-banner .hero-kicker {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 18px;
+}
+
+.hero-banner .hero-description {
+  max-width: 1040px;
+  line-height: 1.55;
 }
