@@ -80,8 +80,10 @@ header {
 }
 
 .hero-banner .content-wrap h1,
-.hero-banner .content-wrap p {
-  color: #ffffff !important;
+.hero-banner .content-wrap p,
+.hero-banner .content-wrap .hero-kicker,
+.hero-banner .content-wrap .hero-description {
+  color: #ffffff;
 }
 
 .hero-banner h1 {
@@ -94,11 +96,13 @@ header {
   font-weight: 700;
   letter-spacing: 0.14em;
   margin-bottom: 18px;
+  color: #ffffff;
 }
 
 .hero-banner .hero-description {
   max-width: 1040px;
   line-height: 1.55;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
