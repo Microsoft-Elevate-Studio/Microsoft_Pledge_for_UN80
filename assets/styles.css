@@ -69,6 +69,63 @@ header {
   color: #605e5c;
 }
 
+.announcement-strip {
+  background: #f3f2f1;
+  border-bottom: 1px solid #e1dfdd;
+}
+
+.announcement-strip .content-wrap {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.announcement-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.announcement-row + .announcement-row {
+  margin-top: 10px;
+}
+
+.announcement-label {
+  display: inline-block;
+  min-width: 112px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 7px 12px;
+  border-radius: 2px;
+}
+
+.announcement-label.foundation {
+  background: #004286;
+}
+
+.announcement-label.latest {
+  background: #d83b01;
+}
+
+.announcement-text {
+  color: #323130;
+}
+
+.announcement-link {
+  color: #0068BD;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.announcement-link:hover {
+  text-decoration: underline;
+}
+
+
 .hero-banner {
   background: linear-gradient(90deg, #0068BD 0%, #004286 100%);
   color: #ffffff;
