@@ -109,7 +109,7 @@ header {
   padding-top: 48px;
 }
 
-.section-label {
+.offers-section .section-label {
   display: inline-block;
   background: #0068BD;
   color: #ffffff;
