@@ -19,7 +19,7 @@ header {
 }
 
 .header-inner {
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -75,7 +75,7 @@ header {
 }
 
 .announcement-strip .content-wrap {
-  max-width: 1280px;
+  max-width: 1360px;
   padding-top: 18px;
   padding-bottom: 18px;
 }
@@ -83,9 +83,9 @@ header {
 .announcement-row {
   display: flex;
   align-items: center;
-  gap: 16px;
-  font-size: 16px;
-  line-height: 1.4;
+  gap: 14px;
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 .announcement-row + .announcement-row {
@@ -121,6 +121,7 @@ header {
   color: #0068BD;
   font-weight: 600;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .announcement-link:hover {
