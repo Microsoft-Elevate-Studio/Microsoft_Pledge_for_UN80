@@ -105,6 +105,46 @@ header {
   color: #ffffff;
 }
 
+.offers-section .content-wrap {
+  padding-top: 48px;
+}
+
+.section-label {
+  display: inline-block;
+  background: #0068BD;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 8px 14px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+.section-rule {
+  width: 48px;
+  height: 4px;
+  background: #0068BD;
+  margin-bottom: 24px;
+}
+
+.offers-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #323130;
+  margin-bottom: 24px;
+}
+
+.offers-section p {
+  max-width: 960px;
+  line-height: 1.55;
+}
+
+.coming-soon {
+  margin-top: 32px;
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .header-inner {
     padding: 0 16px;
