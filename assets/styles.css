@@ -235,6 +235,15 @@ header {
   font-weight: 600;
 }
 
+.partner-logo-placeholder img {
+  max-width: 90px;
+  max-height: 56px;
+  width: auto;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .partner-card-body {
   padding: 24px;
 }
