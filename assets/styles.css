@@ -152,14 +152,14 @@ header {
 }
 
 .page-hero-storytelling {
-  background: #F3F2F1;
+  background: #FFF8E5;
 }
 
 .page-hero-layout {
   display: grid;
-  grid-template-columns: 1.7fr 1fr;
+  grid-template-columns: 1.45fr 1fr;
   align-items: stretch;
-  gap: 48px;
+  gap: 32px;
   padding-top: 0;
   padding-bottom: 0;
   min-height: 430px;
@@ -203,9 +203,14 @@ header {
   justify-content: flex-end;
 }
 
+.page-hero-visual {
+  margin-right: 0;
+}
+
 .page-hero-image-placeholder {
   width: 100%;
   min-height: 430px;
+  margin-right: 0;
   background:
     linear-gradient(45deg, #f3f2f1 25%, transparent 25%),
     linear-gradient(-45deg, #f3f2f1 25%, transparent 25%),
@@ -522,9 +527,13 @@ header {
     font-size: 32px;
   }
 
-  .page-hero-description {
-    font-size: 16px;
-  }
+ .page-hero-description {
+  color: #111111;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 400;
+  max-width: 760px;
+}
 
   .page-hero-image-placeholder {
     min-height: 220px;
