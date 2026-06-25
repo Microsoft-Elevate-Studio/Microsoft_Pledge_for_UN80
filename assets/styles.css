@@ -93,13 +93,13 @@ header {
 
 .announcement-label {
   display: inline-block;
-  min-width: 112px;
+  min-width: 92px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-align: center;
-  padding: 7px 12px;
+  padding: 6px 10px;
   border-radius: 2px;
 }
 
@@ -172,10 +172,10 @@ header {
   display: inline-block;
   background: #0068BD;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.12em;
-  padding: 8px 14px;
+  padding: 7px 12px;
   border-radius: 2px;
   margin-bottom: 16px;
   max-width: none;
