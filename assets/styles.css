@@ -143,6 +143,85 @@ header {
   text-decoration: underline;
 }
 
+.page-hero {
+  color: #323130;
+}
+
+.page-hero-partners {
+  background: #E2F1F9;
+}
+
+.page-hero-storytelling {
+  background: #F3F2F1;
+}
+
+.page-hero-layout {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  align-items: stretch;
+  gap: 48px;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 430px;
+}
+
+.page-hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 72px 0;
+}
+
+.page-hero-kicker {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #323130;
+  margin-bottom: 20px;
+}
+
+.page-hero h1 {
+  color: #111111;
+  font-size: 42px;
+  line-height: 1.15;
+  font-weight: 600;
+  max-width: 760px;
+  margin-bottom: 24px;
+}
+
+.page-hero-description {
+  color: #323130;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 400;
+  max-width: 760px;
+}
+
+.page-hero-visual {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.page-hero-image-placeholder {
+  width: 100%;
+  min-height: 430px;
+  background:
+    linear-gradient(45deg, #f3f2f1 25%, transparent 25%),
+    linear-gradient(-45deg, #f3f2f1 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f3f2f1 75%),
+    linear-gradient(-45deg, transparent 75%, #f3f2f1 75%);
+  background-size: 32px 32px;
+  background-position: 0 0, 0 16px, 16px -16px, -16px 0;
+  background-color: #faf9f8;
+  border-left: 1px solid #e1dfdd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a8886;
+  font-size: 14px;
+  font-weight: 600;
+}
 
 .hero-banner {
   background: linear-gradient(90deg, #0068BD 0%, #004286 100%);
