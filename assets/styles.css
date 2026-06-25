@@ -228,43 +228,6 @@ header {
   font-weight: 600;
 }
 
-.hero-banner {
-  background: linear-gradient(90deg, #0068BD 0%, #004286 100%);
-  color: #ffffff;
-}
-
-.hero-banner .content-wrap {
-  padding-top: 56px;
-  padding-bottom: 56px;
-}
-
-.hero-banner .content-wrap h1,
-.hero-banner .content-wrap p,
-.hero-banner .content-wrap .hero-kicker,
-.hero-banner .content-wrap .hero-description {
-  color: #ffffff;
-}
-
-.hero-banner h1 {
-  max-width: 900px;
-  margin-bottom: 12px;
-  font-weight: 650;
-}
-
-.hero-banner .hero-kicker {
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  margin-bottom: 18px;
-  color: #E6EFF8;
-}
-
-.hero-banner .hero-description {
-  max-width: 1040px;
-  line-height: 1.55;
-  font-weight: 200;
-  color: #ffffff;
-}
 
 .offers-section .content-wrap {
   padding-top: 48px;
