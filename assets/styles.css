@@ -89,6 +89,7 @@ header {
 .hero-banner h1 {
   max-width: 900px;
   margin-bottom: 12px;
+  font-weight: 600;
 }
 
 .hero-banner .hero-kicker {
@@ -96,12 +97,13 @@ header {
   font-weight: 700;
   letter-spacing: 0.14em;
   margin-bottom: 18px;
-  color: #ffffff;
+  color: #E6EFF8;
 }
 
 .hero-banner .hero-description {
   max-width: 1040px;
   line-height: 1.55;
+  font-weight: 400;
   color: #ffffff;
 }
 
@@ -132,7 +134,7 @@ header {
 
 .offers-section h2 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   color: #323130;
   margin-bottom: 24px;
 }
@@ -140,11 +142,13 @@ header {
 .offers-section .content-wrap > p:not(.section-label) {
   max-width: 960px;
   line-height: 1.55;
+  color: #323130;
 }
 
 .coming-soon {
   margin-top: 32px;
   font-weight: 600;
+  color: #605e5c;
 }
 
 @media (max-width: 768px) {
