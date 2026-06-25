@@ -22,6 +22,21 @@ header {
   max-width: 1360px;
   margin: 0 auto;
   padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.brand-logo img {
+  height: 24px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
